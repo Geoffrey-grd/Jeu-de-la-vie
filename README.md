@@ -14,7 +14,7 @@ SFML
 Visual studio
 
 ## Etape 1 : Installation de SFML
-👉 [Téléchargez la version 2.6.2 de 2022 en *64 de sfml ici]((https://www.sfml-dev.org/download/sfml/2.6.2))
+👉 [Téléchargez la version 2.6.2 de 2022 en *64 de sfml ici](https://www.sfml-dev.org/download/sfml/2.6.2)
 
 Puis dezippez le dossier dans votre disque directement pour faciliter l'accès 
   exemple de chemin d'accès pour un disque C : C:\
@@ -29,4 +29,6 @@ Dans le dossier de votre nouveau projet, rendez vous dans sfml/bin et copier/col
 Revenez ensuite dans le dossier projet et éxecutez le ficher "Jeu-de-la-vie.sln" qui configurera vles paramètre de visual studio.
 
 
-## Etape 4 : Amusez vous!
+### Étape 4 : Utilisation
+Les fichiers d'entrée se trouvent dans le dossier `input/`.  
+Les résultats sont générés dans le dossier `output/`.
