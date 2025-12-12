@@ -75,7 +75,6 @@ void jeu::demarer(string& nom_Dossier) {
         this->next_grid.fichier_init(fic);
     }
     else if (rep == "n") {
-        nom_Dossier = "../../output/default";
         //nom_Dossier = "../../output/default";
         nom_Dossier = "output/default";
         string pattern_depart;
