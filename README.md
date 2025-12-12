@@ -25,8 +25,9 @@ Dans un nouveau projet en application console, clonez le repo
 
 
 ## Etape 3 : parametrage de la solution
+Compiler une première fois le programme afin d'initialiser les dossier dans le projet, il devrait y avoir des erreurs vous indiquant que des fichiers ne sont pas trouvé
 Dans le dossier de votre nouveau projet, rendez vous dans sfml/bin et copier/coller tous .dll dans *64/debug
-Revenez ensuite dans le dossier projet et éxecutez le ficher "Jeu-de-la-vie.sln" qui configurera vles paramètre de visual studio.
+
 
 
 ### Étape 4 : Utilisation
