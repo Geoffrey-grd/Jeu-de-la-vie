@@ -128,7 +128,8 @@ void grille::random_init_obs() {
 
 
 void grille::fichier_init(string filename) {
-    ifstream fichier("../../input/" + filename, ios::in);
+    //ifstream fichier("../../input/" + filename, ios::in);
+    ifstream fichier("input/" + filename, ios::in);
 
     if (fichier)
     {
