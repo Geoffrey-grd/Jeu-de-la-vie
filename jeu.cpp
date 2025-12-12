@@ -68,14 +68,16 @@ void jeu::demarer(string& nom_Dossier) {
         string fic;
         cout << "Quel est sont nom ? (.txt)" << endl;
         cin >> fic;
-        nom_Dossier = "../../output/" + fic.substr(0, fic.length() - 4) + "_out";
+        //nom_Dossier = "../../output/" + fic.substr(0, fic.length() - 4) + "_out";
+        nom_Dossier = "output/" + fic.substr(0, fic.length() - 4) + "_out";
         int retour = _mkdir(nom_Dossier.c_str());
         this->current_grid.fichier_init(fic);
         this->next_grid.fichier_init(fic);
     }
     else if (rep == "n") {
         nom_Dossier = "../../output/default";
-        int retour = _mkdir(nom_Dossier.c_str());
+        //nom_Dossier = "../../output/default";
+        nom_Dossier = "output/default";
         string pattern_depart;
         cout << "Voici une liste de blinkers disponible : " << endl;
         cout << "1." << "Glidres" << endl;
